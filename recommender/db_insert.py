@@ -12,7 +12,7 @@ from utils import fast_pg_insert
 load_dotenv()
 
 CONNECTION = os.getenv("TIMESCALE_SERVICE_URL")
-
+          
 
 docFolder = Path('documents')
 embedFolder = Path('embedding')
